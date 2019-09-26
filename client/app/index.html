@@ -95,7 +95,9 @@
 
 						<div class="d-flex align-items-center mt-60">
 							<div class="s130">
-								<form>
+								<form >
+									
+									<!-- starting search bar -->
 									<div class="inner-form">
 										<div class="input-field first-wrap">
 											<div class="svg-wrapper">
@@ -104,13 +106,16 @@
 													</path>
 												</svg>
 											</div>
-											<input id="search" type="text" placeholder="Find Dataset" />
+											<input id="search" type="text" placeholder="Find Dataset" autocomplete="off"/>
 										</div>
 										<div class="input-field second-wrap">
-											<button class="btn-search" type="button">SEARCH</button>
+											<button class="btn-search" type="button" id="submitButton">SEARCH</button>
 										</div>
 									</div>
 								</form>
+								<div id="autoComplete">
+									
+								</div>
 							</div>
 							<script src="js/extention/choices.js"></script>
 							<div id="autoComplete"></div>

@@ -1,4 +1,5 @@
-const queryInput = document.getElementById("query")
+// changed the query from query->search
+const queryInput = document.getElementById("search") 
 const submit = document.getElementById("submitButton")
 const autoCompleteContainer = document.getElementById("autoComplete")
 let selectedItem;
