@@ -43,7 +43,7 @@
 				<a href="about-us.html">About</a>
 			</li>
 			<li>
-				<a href="service.html">Datasets</a>
+				<a href="search.html">Datasets</a>
 			</li>
 			<li>
 				<div class="dropdown">
@@ -57,7 +57,7 @@
 				</div>
 			</li>
 			<li>
-				<a href="team.html">Team</a>
+				<a href="#">Team</a>
 			</li>
 			<li>
 				<a href="contact.html">Contact</a>
@@ -105,19 +105,18 @@
 													</path>
 												</svg>
 											</div>
-											<input id="search" type="text" placeholder="Find Dataset" autocomplete="off"/>
+											<input class="typeahead" id="query" type="text" placeholder="Find Dataset" autocomplete="off"/>
 										</div>
 										<div class="input-field second-wrap">
-											<button class="btn-search" type="button" id="submitButton">SEARCH</button>
+											<a href="search.html"><button id="submitButton" class="btn-search" type="button">SEARCH</button></a>
 										</div>
+										<!-- <div id="autoComplete"></div> -->
 									</div>
 								</form>
 								<div id="autoComplete">
 									
 								</div>
 							</div>
-							<script src="js/extention/choices.js"></script>
-							<div id="autoComplete"></div>
 						</div>
 					</div>
 				</div>
@@ -424,5 +423,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="index.js"></script>
+	<script src="js/extention/choices.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>	    
+	<script src="/vendor/jquery-typeahead/dist/jquery.typeahead.min.js"></script>
 </body>
 </html>
