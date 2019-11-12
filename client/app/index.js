@@ -127,9 +127,9 @@ const autoCompleteList = ["item 1", "item 2", "item 3",
     "water cover"
 ]
 
-    {
-    'MOD13A1.005 Vegetation Indices 16-Day L3 Global 500m': 'Global MODIS vegetation indices are designed to\nprovide consistent spatial and temporal comparisons of vegetation conditions.\nBlue, red, and near-infrared reflectances, centered at 469-nanometers,\n645-nanometers, and 858-nanometers, respectively, are used to determine the\nMODIS daily vegetation indices.',
-        'MOD44W.005 Land Water Mask Derived from MODIS and SRTM': 'The Global Water Mask uses the SWBD (SRTM Water Body Data) in combination with MODIS 250m data to create a complete global map of surface water at 250m spatial resolution, circa 2000-2002.  This dataset is intended for use in processing of raster data and for masking out water in final raster data products.'
-    }
+// const autoCompleteList =  {
+//     'MOD13A1.005 Vegetation Indices 16-Day L3 Global 500m': 'Global MODIS vegetation indices are designed to\nprovide consistent spatial and temporal comparisons of vegetation conditions.\nBlue, red, and near-infrared reflectances, centered at 469-nanometers,\n645-nanometers, and 858-nanometers, respectively, are used to determine the\nMODIS daily vegetation indices.',
+//         'MOD44W.005 Land Water Mask Derived from MODIS and SRTM': 'The Global Water Mask uses the SWBD (SRTM Water Body Data) in combination with MODIS 250m data to create a complete global map of surface water at 250m spatial resolution, circa 2000-2002.  This dataset is intended for use in processing of raster data and for masking out water in final raster data products.'
+//     }
 // auto completes queryInput with above array
 autocomplete(queryInput, autoCompleteList);
