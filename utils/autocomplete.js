@@ -1,3 +1,6 @@
+// Sam and Sukhrob's autocomplete code here
+// Originally in file "index.js"
+
 const queryInput = document.getElementById("query")
 const submit = document.getElementById("submitButton")
 const autoCompleteContainer = document.getElementById("autoComplete")
