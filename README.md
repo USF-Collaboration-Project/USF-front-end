@@ -18,4 +18,7 @@ The purpose of this project is to create an easier way for students and research
 ## How to Use
 
 ## Credits
-Jesse K. Anttila-Hughes
+
+### Make School Development Team
+
+### University of San Francisco Economics Team
