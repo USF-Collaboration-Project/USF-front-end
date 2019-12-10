@@ -21,8 +21,15 @@ app.use(express.static('./public'))
 
 
 app.get('/', (req, res) => {
+    res.render('index')
+})
+
+app.get('/search', (req, res) => {
     res.render('search')
-    // res.send('frick')
+})
+
+app.get('/team', (req, res) => {
+    res.render('team')
 })
 
 const port = process.env.PORT || 3000
