@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ebonnecab/USF-front-end#readme",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-typeahead": "^2.10.6"
   }
 }
